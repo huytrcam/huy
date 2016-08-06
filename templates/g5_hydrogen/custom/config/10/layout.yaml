@@ -1,0 +1,144 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1462940758
+layout:
+  /header/: {  }
+  /navigation/:
+    -
+      - 'custom-2954 15'
+      - 'menu-9741 85'
+  /showcase/:
+    -
+      - custom-8171
+    -
+      - custom-6497
+  /feature/: {  }
+  /main/:
+    -
+      - system-messages-7115
+    -
+      - sample-2
+  /subfeature/:
+    -
+      - sample-3
+  /footer/:
+    -
+      - position-footer
+    -
+      - 'copyright-8916 33.3'
+      - 'social-2858 33.3'
+      - 'branding-9943 33.3'
+  offcanvas:
+    -
+      - mobile-menu-8903
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  subfeature:
+    type: section
+    attributes:
+      class: flush
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  custom-2954:
+    title: Avatar
+    attributes:
+      html: "<div class=\"avatar\">\n<img src=\"images/avatar.jpg\"/>\n</div>"
+    block:
+      class: block-avatar
+  menu-9741:
+    block:
+      class: block-menu
+  custom-8171:
+    title: Introduction
+    attributes:
+      html: "<div class=\"banner-text\">\n<h2>I'm Huy Tran</h2>\n<p>a web developer</p>\n</div>\n<div class=\"cloud\" id=\"cloud1\">\n</div>\n<div class=\"cloud\" id=\"cloud3\">\n</div>"
+    block:
+      class: block-introduction
+  custom-6497:
+    title: 'Banner Landscape'
+    attributes:
+      html: "<div class=\"banner-landscape\">\n<img src=\"images/banners/banner2.jpg\"/>\n</div>\n<div class=\"cloud\" id=\"cloud2\"></div>"
+    block:
+      class: block-banner-landscape
+  sample-2:
+    title: 'Getting Started'
+    attributes:
+      description: "<h1 class=\"center\">Getting Started</h1>\n<div class=\"device-promo\"><div class=\"macbook\"><div class=\"macbook-color\"></div></div><div class=\"ipad\"><div class=\"ipad-color\"></div></div><div class=\"iphone\"><div class=\"iphone-color\"></div></div></div><p>Welcome to Gantry 5 featuring <strong>Hydrogen</strong>, the first theme built on the Gantry 5 framework. If you want to get started, the best way is to navigate to the Gantry Administrator via your platform's Administration panel.</p>\n\n<p>Once you are in the Gantry 5 Administrator, you will be able to edit virtually every aspect of your site from its <strong>Layout</strong> to its <strong>Style</strong>. You can even refine how the menus appear using Gantry 5’s new <strong>Menu Editor</strong>.</p>\n\n<p>You can set different style preferences for different pages, and have them assigned accordingly using the <strong>Assignments</strong> administrative panel.</p>\n\n<div class=\"info-box\"><div class=\"fa fa-graduation-cap float-left\"></div><p>Look for more information on Gantry 5 in our documentation, and stay tuned to the RocketTheme Blog for more information on new features and development updates as development continues.</p>\n\n<p><a href=\"http://docs.gantry.org\" class=\"button\">Learn More</a></p></div>\n\n<h1 class=\"center\">How to Contribute</h1>\n\n<div class=\"g-grid\">\n<div class=\"g-block size-37\"><p>Thank you for using Gantry 5 and the Hydrogen theme. We welcome you to contribute to the project by submitting bug reports through <strong>GitHub</strong>, and/or submit your own code changes to the <strong>Gantry 5 project</strong> for consideration.</p>\n<p><a href=\"https://github.com/gantry/gantry5\" class=\"button\">Gantry 5 on GitHub</a></p>\n</div>\n<div class=\"g-block size-26 middle\"><div class=\"fa fa-github-square\"></div></div>\n\n<div class=\"g-block size-37\"><p>If you would like to assist in creating documentation for Gantry 5, you can do so through the <strong>Gantry 5 Documentation</strong> project on <strong>GitHub</strong>.</p>\n<p><a href=\"https://github.com/gantry/docs\" class=\"button\">Gantry Docs on GitHub</a></p>\n</div>\n</div>\n\n<p>Once again, thank you for participating. We hope you enjoy testing Gantry 5 every bit as much as we have enjoyed creating it.</p>"
+  sample-3:
+    title: 'Key Features'
+    attributes:
+      headline: 'Key Features'
+      description: '<p>Gantry 5 is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss</p>'
+      samples:
+        -
+          icon: 'fa fa-code'
+          subtitle: ''
+          description: '<p>Gantry 5 leverages the power of <a href="http://twig.sensiolabs.org/">Twig</a> to make creating powerful, dynamic themes quick and easy.</p>'
+          title: 'Twig Templating'
+        -
+          icon: 'fa fa-newspaper-o'
+          subtitle: ''
+          description: '<p>Drag-and-drop functionality gives you the power to place content blocks, resize them, and configure their unique settings in seconds.</p>'
+          title: 'Layout Manager'
+        -
+          icon: 'fa fa-cubes'
+          subtitle: ''
+          description: '<p>Create, configure, and manage content blocks as well as special features and functionality with the powerful particle system.</p>'
+          title: 'Particles System'
+  position-footer:
+    attributes:
+      key: footer
+  social-2858:
+    attributes:
+      css:
+        class: social-items
+      items:
+        -
+          icon: 'fa fa-twitter'
+          text: Twitter
+          link: 'http://twitter.com/rockettheme'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook'
+          text: Facebook
+          link: 'http://facebook.com/rockettheme'
+          name: Facebook
+        -
+          icon: 'fa fa-google'
+          text: Google
+          link: 'http://plus.google.com/+rockettheme'
+          name: Google
+        -
+          icon: 'fa fa-rss'
+          text: RSS
+          link: 'http://www.rockettheme.com/product-updates?rss'
+          name: RSS
+    block:
+      variations: center
+  branding-9943:
+    block:
+      variations: align-right
+  mobile-menu-8903:
+    title: 'Mobile Menu'
